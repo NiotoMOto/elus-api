@@ -1,0 +1,43 @@
+{
+  "name": "elus-api",
+  "version": "0.0.1",
+  "description": "Api/parser pour stats elus de France",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "mongod": "mongod --dbpath ../data/coloquons",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiotoMOto/elus-api.git"
+  },
+  "keywords": [
+    "api",
+    "parser",
+    "France",
+    "elus"
+  ],
+  "author": "Antoine Guillemoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiotoMOto/elus-api/issues"
+  },
+  "homepage": "https://github.com/NiotoMOto/elus-api#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "bluebird": "^3.3.5",
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "csvtojson": "^0.5.3",
+    "express": "^4.13.4",
+    "lodash": "^4.11.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.12",
+    "phantom": "^2.0.6",
+    "pretty-error": "^2.0.0",
+    "puid": "^1.0.5",
+    "require-dir": "^0.3.0",
+    "restify-mongoose": "^0.2.6"
+  }
+}
